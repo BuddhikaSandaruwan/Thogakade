@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="683.0" prefWidth="1017.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.hibanate_Thogakade.controller.DashbordController">
+   <children>
+      <Label layoutX="-1.0" prefHeight="683.0" prefWidth="159.0" style="-fx-background-color: red;" />
+      <Label layoutX="158.0" prefHeight="79.0" prefWidth="859.0" style="-fx-background-color: yellow;" />
+      <ImageView fitHeight="151.0" fitWidth="159.0" layoutX="3.0" layoutY="83.0" onMouseClicked="#customerClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assist/user.png" />
+         </image></ImageView>
+      <ImageView fitHeight="151.0" fitWidth="159.0" layoutX="3.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assist/ORDER-512.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="151.0" fitWidth="159.0" layoutX="3.0" layoutY="510.0" onMouseClicked="#itemClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assist/review-icon-png-14.png" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="lordPnl" layoutX="158.0" layoutY="79.0" prefHeight="604.0" prefWidth="859.0" />
+   </children>
+</AnchorPane>
